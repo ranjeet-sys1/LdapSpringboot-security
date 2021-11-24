@@ -11,5 +11,9 @@ public class HomeController {
     public String index() {
         return "Welcome to the home page!";
     }
+    @GetMapping("/open")
+    public String getInfo(){
+        return "I am open book person";
+    }
 
 }

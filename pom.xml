@@ -68,8 +68,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>spring-repo</id>
-			<url>https://repo.spring.io/release</url>
+			<id>LdapSpringboot-security</id>
+			<url>https://github.com/ranjeet-sys1/LdapSpringboot-security.git</url>
 		</repository>
 	</distributionManagement>
 

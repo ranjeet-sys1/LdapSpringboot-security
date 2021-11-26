@@ -61,19 +61,15 @@
 
 	<repositories>
 		<repository>
-			<id>repository.springframework.maven.release</id>
-			<name>Spring Framework Maven Release Repository</name>
-			<url>http://maven.springframework.org/release</url>
+			<id>spring-repo</id>
+			<url>https://repo.spring.io/release</url>
 		</repository>
 	</repositories>
 
 	<distributionManagement>
 		<repository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>corp1</id>
-			<name>Corporate Repository</name>
-			<url>scp://repo/maven2</url>
-			<layout>default</layout>
+			<id>spring-repo</id>
+			<url>https://repo.spring.io/release</url>
 		</repository>
 	</distributionManagement>
 

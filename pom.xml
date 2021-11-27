@@ -59,17 +59,18 @@
 		</plugins>
 	</build>
 
-	<repositories>
+	<!--<repositories>
 		<repository>
 			<id>spring-repo</id>
 			<url>https://repo.spring.io/release</url>
 		</repository>
-	</repositories>
+	</repositories>-->
 
 	<distributionManagement>
 		<repository>
-			<id>LdapSpringboot-security</id>
-			<url>https://github.com/ranjeet-sys1/LdapSpringboot-security.git</url>
+			<id>HTTP</id>
+			<name>HTTP Central</name>
+			<url>https://repo.maven.apache.org/maven2</url>
 		</repository>
 	</distributionManagement>
 

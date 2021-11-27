@@ -68,9 +68,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>HTTP</id>
-			<name>HTTP Central</name>
-			<url>https://repo.maven.apache.org/maven2</url>
+			<id>internal</id>
+			<url>scpexe://maven@myserver.com:$HOME</url>
 		</repository>
 	</distributionManagement>
 
